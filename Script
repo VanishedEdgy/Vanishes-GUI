@@ -1,0 +1,1341 @@
+-- Vanishes GUI
+
+
+-- Version: 0.1
+
+
+
+-- Instances:
+
+
+
+local VanishesGui = Instance.new("ScreenGui")
+
+
+local main = Instance.new("Frame")
+
+
+local UICorner = Instance.new("UICorner")
+
+
+local Title = Instance.new("TextLabel")
+
+
+local UICorner_2 = Instance.new("UICorner")
+
+
+local Menu = Instance.new("TextLabel")
+
+
+local UICorner_3 = Instance.new("UICorner")
+
+
+local GUIDescription = Instance.new("TextLabel")
+
+
+local funnyimage = Instance.new("ImageLabel")
+
+
+local ScriptsFrame = Instance.new("TextButton")
+
+
+local UICorner_4 = Instance.new("UICorner")
+
+
+local ScriptsFrame_2 = Instance.new("Frame")
+
+
+local ClosePage1 = Instance.new("TextButton")
+
+
+local Script1 = Instance.new("TextButton")
+
+
+local Script2 = Instance.new("TextButton")
+
+
+local TeleportFrame = Instance.new("Frame")
+
+
+local ClosePage2 = Instance.new("TextButton")
+
+
+local TextLabel = Instance.new("TextLabel")
+
+
+local UICorner_5 = Instance.new("UICorner")
+
+
+local Target = Instance.new("TextBox")
+
+
+local Script3 = Instance.new("TextButton")
+
+
+local Credits = Instance.new("Frame")
+
+
+local ClosePage3 = Instance.new("TextButton")
+
+
+local Credits_2 = Instance.new("TextLabel")
+
+
+local TeleportFrame_2 = Instance.new("TextButton")
+
+
+local UICorner_6 = Instance.new("UICorner")
+
+
+local Credits_3 = Instance.new("TextButton")
+
+
+local UICorner_7 = Instance.new("UICorner")
+
+
+
+--Properties:
+
+
+
+VanishesGui.Name = "Vanishes Gui"
+
+
+VanishesGui.Parent = game.CoreGui
+
+
+
+main.Name = "main"
+
+
+main.Parent = VanishesGui
+
+
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+
+main.Position = UDim2.new(0.472137779, 0, 0.347753733, 0)
+
+
+main.Size = UDim2.new(0, 382, 0, 280)
+
+
+main.Active = true
+
+
+main.Draggable = true
+
+
+
+UICorner.CornerRadius = UDim.new(0, 18)
+
+
+UICorner.Parent = main
+
+
+
+Title.Name = "Title"
+
+
+Title.Parent = main
+
+
+Title.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+
+
+Title.Position = UDim2.new(0.175392672, 0, 0, 0)
+
+
+Title.Size = UDim2.new(0, 315, 0, 55)
+
+
+Title.Font = Enum.Font.SourceSans
+
+
+Title.Text = "Vanishes GUI | Version 0.1"
+
+
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Title.TextScaled = true
+
+
+Title.TextSize = 14.000
+
+
+Title.TextWrapped = true
+
+
+
+UICorner_2.CornerRadius = UDim.new(0, 18)
+
+
+UICorner_2.Parent = Title
+
+
+
+Menu.Name = "Menu"
+
+
+Menu.Parent = main
+
+
+Menu.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+
+
+Menu.Size = UDim2.new(0, 67, 0, 55)
+
+
+Menu.Font = Enum.Font.SourceSans
+
+
+Menu.Text = "Menu"
+
+
+Menu.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Menu.TextScaled = true
+
+
+Menu.TextSize = 14.000
+
+
+Menu.TextWrapped = true
+
+
+
+UICorner_3.CornerRadius = UDim.new(0, 18)
+
+
+UICorner_3.Parent = Menu
+
+
+
+GUIDescription.Name = "GUI Description"
+
+
+GUIDescription.Parent = main
+
+
+GUIDescription.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+
+GUIDescription.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+GUIDescription.Position = UDim2.new(0.209424078, 0, 0.221428573, 0)
+
+
+GUIDescription.Size = UDim2.new(0, 296, 0, 55)
+
+
+GUIDescription.Font = Enum.Font.SourceSans
+
+
+GUIDescription.Text = "so this is just a test GUI most likely but it will have updates in the future"
+
+
+GUIDescription.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+GUIDescription.TextScaled = true
+
+
+GUIDescription.TextSize = 14.000
+
+
+GUIDescription.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+
+GUIDescription.TextWrapped = true
+
+
+
+funnyimage.Name = "funny image"
+
+
+funnyimage.Parent = main
+
+
+funnyimage.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+
+funnyimage.Position = UDim2.new(0.262358338, 0, 0.446000695, 0)
+
+
+funnyimage.Size = UDim2.new(0, 255, 0, 142)
+
+
+funnyimage.Image = "http://www.roblox.com/asset/?id=7037079923"
+
+
+
+ScriptsFrame.Name = "Scripts Frame"
+
+
+ScriptsFrame.Parent = main
+
+
+ScriptsFrame.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+
+
+ScriptsFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+ScriptsFrame.Position = UDim2.new(0.0209424086, 0, 0.221428573, 0)
+
+
+ScriptsFrame.Size = UDim2.new(0, 59, 0, 62)
+
+
+ScriptsFrame.Font = Enum.Font.SourceSans
+
+
+ScriptsFrame.Text = "Scripts"
+
+
+ScriptsFrame.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+ScriptsFrame.TextSize = 24.000
+
+
+ScriptsFrame.TextWrapped = true
+
+
+
+UICorner_4.Parent = ScriptsFrame
+
+
+
+ScriptsFrame_2.Name = "ScriptsFrame"
+
+
+ScriptsFrame_2.Parent = main
+
+
+ScriptsFrame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+
+ScriptsFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+ScriptsFrame_2.Position = UDim2.new(0.209424078, 0, 0.221428573, 0)
+
+
+ScriptsFrame_2.Size = UDim2.new(0, 296, 0, 211)
+
+
+ScriptsFrame_2.Visible = false
+
+
+
+ClosePage1.Name = "Close Page 1"
+
+
+ClosePage1.Parent = ScriptsFrame_2
+
+
+ClosePage1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+
+
+ClosePage1.BorderColor3 = Color3.fromRGB(255, 0, 0)
+
+
+ClosePage1.Position = UDim2.new(0.864864886, 0, 0, 0)
+
+
+ClosePage1.Size = UDim2.new(0, 40, 0, 37)
+
+
+ClosePage1.Font = Enum.Font.SourceSans
+
+
+ClosePage1.Text = "X"
+
+
+ClosePage1.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+ClosePage1.TextSize = 14.000
+
+
+
+Script1.Name = "Script1"
+
+
+Script1.Parent = ScriptsFrame_2
+
+
+Script1.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+
+
+Script1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Script1.Position = UDim2.new(0.0675675645, 0, 0.0853080601, 0)
+
+
+Script1.Size = UDim2.new(0, 87, 0, 44)
+
+
+Script1.Font = Enum.Font.SourceSans
+
+
+Script1.Text = "Fly"
+
+
+Script1.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Script1.TextScaled = true
+
+
+Script1.TextSize = 14.000
+
+
+Script1.TextWrapped = true
+
+
+Script1.MouseButton1Down:connect(function()
+
+
+	local Client = game.Players.LocalPlayer
+
+
+	local function myParts()
+
+
+		local Char = Client.Character or Client.CharacterAdded:Wait()
+
+
+		if Char then
+
+
+			local HRP = Char:FindFirstChild("HumanoidRootPart")
+
+
+			local UPT = Char:FindFirstChild("UpperTorso")
+
+
+			local T = Char:FindFirstChild("Torso")
+
+
+			local LT = Char:FindFirstChild("LowerTorso")
+
+
+			local Head = Char:FindFirstChild("Head")
+
+
+			if HRP then
+
+
+				return HRP
+
+
+			elseif UPT then
+
+
+				return UPT
+
+
+			elseif T then
+
+
+				return T
+
+
+			elseif LT then
+
+
+				return LT
+
+
+			elseif Head then
+
+
+				return Head
+
+
+			end
+
+
+		end
+
+
+	end
+
+
+
+	local LP = game.Players.LocalPlayer
+
+
+	local UIS = game:GetService("UserInputService")
+
+
+	local Mouse = LP:GetMouse()
+
+
+	local Toggle = false
+
+
+	local FLYING = false
+
+
+	local iyflyspeed = 5
+
+
+
+	function sFLY()
+
+
+
+		local T = myParts()
+
+
+		local CONTROL = {F = 0, B = 0, L = 0, R = 0}
+
+
+		local LCONTROL = {F = 0, B = 0, L = 0, R = 0}
+
+
+		local SPEED = 0
+
+
+
+		local function FLY()
+
+
+			FLYING = true
+
+
+			local BG = Instance.new("BodyGyro", T)
+
+
+			local BV = Instance.new("BodyVelocity", T)
+
+
+			BG.P = 9e9;
+
+
+			BG.MaxTorque = Vector3.new(math.huge, math.huge, math.huge);
+
+
+			BG.CFrame = T.CFrame;
+
+
+			BV.Velocity = Vector3.new(0, 0, 0);
+
+
+			BV.MaxForce = Vector3.new(math.huge, math.huge, math.huge);
+
+
+			spawn(function()
+
+
+				repeat wait()
+
+
+					if CONTROL.L + CONTROL.R ~= 0 or CONTROL.F + CONTROL.B ~= 0 then
+
+
+						SPEED = 50
+
+
+					elseif not (CONTROL.L + CONTROL.R ~= 0 or CONTROL.F + CONTROL.B ~= 0) and SPEED ~= 0 then
+
+
+						SPEED = 0
+
+
+					end
+
+
+					if (CONTROL.L + CONTROL.R) ~= 0 or (CONTROL.F + CONTROL.B) ~= 0 then
+
+
+						BV.Velocity = ((workspace.CurrentCamera.CoordinateFrame.LookVector * (CONTROL.F + CONTROL.B)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(CONTROL.L + CONTROL.R, (CONTROL.F + CONTROL.B) * 0.2, 0).p) - workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+
+
+						LCONTROL = {F = CONTROL.R, B = CONTROL.B, L = CONTROL.L, R = CONTROL.R}
+
+
+					elseif (CONTROL.L + CONTROL.R) == 0 and (CONTROL.F + CONTROL.B) == 0 and SPEED ~= 0 then
+
+
+						BV.Velocity = ((workspace.CurrentCamera.CoordinateFrame.LookVector * (LCONTROL.F + LCONTROL.B)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(LCONTROL.L + LCONTROL.R, (LCONTROL.F + LCONTROL.B) * 0.2, 0).p) - workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+
+
+					else
+
+
+						BV.Velocity = Vector3.new(0, 0, 0)
+
+
+					end
+
+
+					BG.CFrame = workspace.CurrentCamera.CoordinateFrame
+
+
+				until not FLYING
+
+
+				CONTROL = {F = 0, B = 0, L = 0, R = 0}
+
+
+				LCONTROL = {F = 0, B = 0, L = 0, R = 0}
+
+
+				SPEED = 0
+
+
+				BG:Destroy()
+
+
+				BV:Destroy()
+
+
+			end)
+
+
+		end
+
+
+
+		UIS.InputBegan:Connect(function(Input, Processed)
+
+
+			if Processed then return end
+
+
+			if Input.KeyCode == Enum.KeyCode.W then
+
+
+				CONTROL.F = iyflyspeed
+
+
+			elseif Input.KeyCode == Enum.KeyCode.S then
+
+
+				CONTROL.B = -iyflyspeed
+
+
+			elseif Input.KeyCode == Enum.KeyCode.A then
+
+
+				CONTROL.L = -iyflyspeed
+
+
+			elseif Input.KeyCode == Enum.KeyCode.D then
+
+
+				CONTROL.R = iyflyspeed
+
+
+			end
+
+
+		end)
+
+
+		UIS.InputEnded:Connect(function(Input, Processed)
+
+
+			if Processed then return end
+
+
+			if Input.KeyCode == Enum.KeyCode.W then
+
+
+				CONTROL.F = 0
+
+
+			elseif Input.KeyCode == Enum.KeyCode.S then
+
+
+				CONTROL.B = 0
+
+
+			elseif Input.KeyCode == Enum.KeyCode.A then
+
+
+				CONTROL.L = 0
+
+
+			elseif Input.KeyCode == Enum.KeyCode.D then
+
+
+				CONTROL.R = 0
+
+
+			end
+
+
+		end)
+
+
+		FLY()
+
+
+	end
+
+
+
+	function NOFLY()
+
+
+		FLYING = false
+
+
+	end
+
+
+
+	function beginfly()
+
+
+		for i,v in pairs(LP.PlayerGui:GetChildren()) do
+
+
+			if v:IsA("LocalScript") then
+
+
+				v.Disabled = true
+
+
+			end
+
+
+		end
+
+
+		sFLY()
+
+
+		for i,v in pairs(LP.PlayerGui:GetChildren()) do
+
+
+			if v:IsA("LocalScript") then
+
+
+				v.Disabled = false
+
+
+			end
+
+
+		end
+
+
+	end
+
+
+
+	UIS.InputBegan:Connect(function(Key, gameProcessedEvent)
+
+
+		if Key.KeyCode == Enum.KeyCode.X and not gameProcessedEvent then
+
+
+			Toggle = not Toggle
+
+
+			if Toggle == true then
+
+
+				beginfly()
+
+
+			elseif Toggle == false then
+
+
+				NOFLY()
+
+
+			end
+
+
+		end
+
+
+	end)
+
+
+
+end)
+
+
+
+Script2.Name = "Script2"
+
+
+Script2.Parent = ScriptsFrame_2
+
+
+Script2.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
+
+
+Script2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Script2.Position = UDim2.new(0.0675675645, 0, 0.374407589, 0)
+
+
+Script2.Size = UDim2.new(0, 87, 0, 44)
+
+
+Script2.Font = Enum.Font.SourceSans
+
+
+Script2.Text = "Refresh"
+
+
+Script2.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Script2.TextScaled = true
+
+
+Script2.TextSize = 14.000
+
+
+Script2.TextWrapped = true
+
+
+Script2.MouseButton1Down:connect(function()
+
+
+	game.Players.localPlayer.Character:Destroy()
+
+
+end)
+
+
+
+TeleportFrame.Name = "TeleportFrame"
+
+
+TeleportFrame.Parent = main
+
+
+TeleportFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+
+TeleportFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+TeleportFrame.Position = UDim2.new(0.209424078, 0, 0.221428573, 0)
+
+
+TeleportFrame.Size = UDim2.new(0, 296, 0, 211)
+
+
+TeleportFrame.Visible = false
+
+
+
+ClosePage2.Name = "Close Page 2"
+
+
+ClosePage2.Parent = TeleportFrame
+
+
+ClosePage2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+
+
+ClosePage2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+
+
+ClosePage2.Position = UDim2.new(0.864864886, 0, 0, 0)
+
+
+ClosePage2.Size = UDim2.new(0, 40, 0, 37)
+
+
+ClosePage2.Font = Enum.Font.SourceSans
+
+
+ClosePage2.Text = "X"
+
+
+ClosePage2.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+ClosePage2.TextSize = 14.000
+
+
+
+TextLabel.Parent = TeleportFrame
+
+
+TextLabel.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
+
+
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+TextLabel.Position = UDim2.new(0.121621624, 0, 0.0379146934, 0)
+
+
+TextLabel.Size = UDim2.new(0, 200, 0, 39)
+
+
+TextLabel.Font = Enum.Font.SourceSans
+
+
+TextLabel.Text = "TP to player"
+
+
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+TextLabel.TextSize = 14.000
+
+
+
+UICorner_5.Parent = TextLabel
+
+
+
+Target.Name = "Target"
+
+
+Target.Parent = TeleportFrame
+
+
+Target.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
+
+
+Target.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Target.Position = UDim2.new(0.168918923, 0, 0.293838859, 0)
+
+
+Target.Size = UDim2.new(0, 171, 0, 34)
+
+
+Target.Font = Enum.Font.SourceSans
+
+
+Target.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Target.PlaceholderText = "Input.User"
+
+
+Target.Text = ""
+
+
+Target.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Target.TextScaled = true
+
+
+Target.TextSize = 14.000
+
+
+Target.TextWrapped = true
+
+
+
+Script3.Name = "Script3"
+
+
+Script3.Parent = TeleportFrame
+
+
+Script3.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
+
+
+Script3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Script3.Position = UDim2.new(0.121621624, 0, 0.549763024, 0)
+
+
+Script3.Size = UDim2.new(0, 200, 0, 35)
+
+
+Script3.Font = Enum.Font.SourceSans
+
+
+Script3.Text = "Teleport"
+
+
+Script3.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Script3.TextSize = 14.000
+
+
+Script3.MouseButton1Down:connect(function()
+
+
+	local username = string.lower(Target.Text)
+
+
+	local foundchild = false
+
+
+	local child
+
+
+	i,v in pairs(game.Players:GetChildren()) do
+
+
+		if string.lower(v.name) == username then
+
+
+			foundchild = true
+
+
+			child = v
+
+
+		end 
+
+
+	end
+
+
+	if foundchild = true then
+
+
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = child.Character.HumanoidRootPart.CFrame
+
+
+	end
+
+
+end)
+
+
+
+Credits.Name = "Credits"
+
+
+Credits.Parent = main
+
+
+Credits.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Credits.Position = UDim2.new(0.209424078, 0, 0.221428573, 0)
+
+
+Credits.Size = UDim2.new(0, 296, 0, 211)
+
+
+Credits.Visible = false
+
+
+
+ClosePage3.Name = "Close Page 3"
+
+
+ClosePage3.Parent = Credits
+
+
+ClosePage3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+
+
+ClosePage3.BorderColor3 = Color3.fromRGB(255, 0, 0)
+
+
+ClosePage3.Position = UDim2.new(0.864864886, 0, 0, 0)
+
+
+ClosePage3.Size = UDim2.new(0, 40, 0, 37)
+
+
+ClosePage3.Font = Enum.Font.SourceSans
+
+
+ClosePage3.Text = "X"
+
+
+ClosePage3.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+ClosePage3.TextSize = 14.000
+
+
+
+Credits_2.Name = "Credits"
+
+
+Credits_2.Parent = Credits
+
+
+Credits_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Credits_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Credits_2.Position = UDim2.new(0.0675675645, 0, 0, 0)
+
+
+Credits_2.Size = UDim2.new(0, 224, 0, 70)
+
+
+Credits_2.Font = Enum.Font.SourceSans
+
+
+Credits_2.Text = "Made By CorpseMaine AKA VanishedEdgy"
+
+
+Credits_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+Credits_2.TextScaled = true
+
+
+Credits_2.TextSize = 14.000
+
+
+Credits_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+
+Credits_2.TextWrapped = true
+
+
+
+TeleportFrame_2.Name = "Teleport Frame"
+
+
+TeleportFrame_2.Parent = main
+
+
+TeleportFrame_2.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+
+
+TeleportFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+TeleportFrame_2.Position = UDim2.new(0.0209424086, 0, 0.471428573, 0)
+
+
+TeleportFrame_2.Size = UDim2.new(0, 59, 0, 62)
+
+
+TeleportFrame_2.Font = Enum.Font.SourceSans
+
+
+TeleportFrame_2.Text = "Teleport"
+
+
+TeleportFrame_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+TeleportFrame_2.TextSize = 20.000
+
+
+TeleportFrame_2.TextWrapped = true
+
+
+
+UICorner_6.Parent = TeleportFrame_2
+
+
+
+Credits_3.Name = "Credits"
+
+
+Credits_3.Parent = main
+
+
+Credits_3.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+
+
+Credits_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Credits_3.Position = UDim2.new(0.0209424086, 0, 0.728571415, 0)
+
+
+Credits_3.Size = UDim2.new(0, 59, 0, 62)
+
+
+Credits_3.Font = Enum.Font.SourceSans
+
+
+Credits_3.Text = "Credits"
+
+
+Credits_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Credits_3.TextSize = 24.000
+
+
+Credits_3.TextWrapped = true
+
+
+
+UICorner_7.Parent = Credits_3
+
+
+
+-- Scripts:
+
+
+
+local function EAZHTUN_fake_script() -- ScriptsFrame.LocalScript 
+
+
+	local script = Instance.new('LocalScript', ScriptsFrame)
+
+
+
+	script.Parent.MouseButton1Click:Connect(function()
+
+
+		script.Parent.Parent.ScriptsFrame.Visible = true
+
+
+	end)
+
+
+	
+
+
+end
+
+
+coroutine.wrap(EAZHTUN_fake_script)()
+
+
+local function HIKZD_fake_script() -- ClosePage1.LocalScript 
+
+
+	local script = Instance.new('LocalScript', ClosePage1)
+
+
+
+	script.Parent.MouseButton1Click:Connect(function()
+
+
+		script.Parent.Parent.Parent.ScriptsFrame.Visible = false
+
+
+	end)
+
+
+	
+
+
+end
+
+
+coroutine.wrap(HIKZD_fake_script)()
+
+
+local function JYASEX_fake_script() -- ClosePage2.LocalScript 
+
+
+	local script = Instance.new('LocalScript', ClosePage2)
+
+
+
+	script.Parent.MouseButton1Click:Connect(function()
+
+
+		script.Parent.Parent.Parent.TeleportFrame.Visible = false
+
+
+	end)
+
+
+	
+
+
+end
+
+
+coroutine.wrap(JYASEX_fake_script)()
+
+
+local function QCPXKD_fake_script() -- ClosePage3.LocalScript 
+
+
+	local script = Instance.new('LocalScript', ClosePage3)
+
+
+
+	script.Parent.MouseButton1Click:Connect(function()
+
+
+		script.Parent.Parent.Parent.Credits.Visible = false
+
+
+	end)
+
+
+	
+
+
+end
+
+
+coroutine.wrap(QCPXKD_fake_script)()
+
+
+local function CGSFW_fake_script() -- TeleportFrame_2.LocalScript 
+
+
+	local script = Instance.new('LocalScript', TeleportFrame_2)
+
+
+
+	script.Parent.MouseButton1Click:Connect(function()
+
+
+		script.Parent.Parent.TeleportFrame.Visible = true
+
+
+	end)
+
+
+	
+
+
+end
+
+
+coroutine.wrap(CGSFW_fake_script)()
+
+
+local function XGQQGGM_fake_script() -- Credits_3.LocalScript 
+
+
+	local script = Instance.new('LocalScript', Credits_3)
+
+
+
+	script.Parent.MouseButton1Click:Connect(function()
+
+
+		script.Parent.Parent.Credits.Visible = true
+
+
+	end)
+
+
+	
+
+
+end
+
+
+coroutine.wrap(XGQQGGM_fake_script)()
+
+
